@@ -32,9 +32,9 @@ const Index = () => {
 
             <form action="https://formsubmit.co/danielsneomi@gmail.com" method="POST">
     <!-- Hidden Fields for Configuration -->
-    <!--input type="hidden" name="_subject" value="New Guide Request" -->
-    <!--input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" -->
-    <!--input type="hidden" name="_captcha" value="false" -->
+    <!-- input type="hidden" name="_subject" value="New Guide Request" -->
+    <!-- input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" -->
+    <!-- input type="hidden" name="_captcha" value="false" -->
 
     <!-- Form Fields -->
     <label for="name">Name:</label>
