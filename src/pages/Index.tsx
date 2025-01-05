@@ -30,6 +30,21 @@ const Index = () => {
             </p>
           </div>
 
+            <form action="https://formsubmit.co/danielsneomi@gmail.com" method="POST">
+    <!-- Hidden Fields for Configuration -->
+    <!--input type="hidden" name="_subject" value="New Guide Request" -->
+    <!--input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" -->
+    <!--input type="hidden" name="_captcha" value="false" -->
+
+    <!-- Form Fields -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Your Name">
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Your Email">
+    
+    <button type="submit">Get My Free Guide</button>
+
           <div className="w-full max-w-md mb-12">
             <EmailSignupForm />
           </div>
