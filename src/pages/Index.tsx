@@ -44,6 +44,8 @@ const Index = () => {
     <input type="email" id="email" name="email" required placeholder="Your Email">
     
     <button type="submit">Get My Free Guide</button>
+   </form>
+
 
           <div className="w-full max-w-md mb-12">
             <EmailSignupForm />
